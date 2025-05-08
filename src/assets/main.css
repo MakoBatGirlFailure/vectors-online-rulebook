@@ -1,2 +1,35 @@
 /**@import './base.css';**/
 
+.sidebar {
+    background-color: rgb(5, 46, 36);
+    color: white;
+    margin-top: 0px;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    /* Importante para o sticky funcionar */
+    height: 100vh;
+    /* Caso queira scroll no próprio sidebar */
+}
+
+.article {
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.topic-title {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.chapter-title {
+    margin-left: 10px;
+    font-size: 15pt;
+    font-weight: 150%;
+}
+
+.chapter-topic {
+    margin-left: 14px;
+}
